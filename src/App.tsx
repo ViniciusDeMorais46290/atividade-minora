@@ -13,7 +13,7 @@ function App() {
 
   return (
     <AppContainer>
-      <AppSearch texto="fuck"></AppSearch>
+      <AppSearch texto="FamilyFriendly"></AppSearch>
       <Applista qualquercoisa="aaa"></Applista>
     </AppContainer>
   )
