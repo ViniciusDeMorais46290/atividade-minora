@@ -3,7 +3,8 @@ import React from 'react'
 function AppLista(props: any){
     return(
         <div>
-            <h1>{props.qualquercoisa}</h1>
+            <input type="checkbox" name="BRUH" id=""/>
+            <label htmlFor="BRUH"> {props.name}</label>
         </div>
     )
 }

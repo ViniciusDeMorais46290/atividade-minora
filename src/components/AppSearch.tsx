@@ -1,10 +1,12 @@
 import React from "react";
 
-function AppSearch(props) {
+function AppSearch(props: any) {
+    let handle_change = props.onChange ?? (() => null);
+    let handle_click = props.onClick ?? (() => null);
     return(
         <div>
-            <input type='text'></input> <br></br>
-            <button>Pesquisar</button>
+            <input onChange={handle_change} type='text'></input> <br></br>
+            <button onClick={handle_click}>ADD Cionar</button>
         </div>
     )
 }
